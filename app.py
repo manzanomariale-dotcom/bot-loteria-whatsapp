@@ -13,11 +13,11 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 
 # Configure these values in Render > your service > Environment.
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "").strip()
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "").strip()
-WHATSAPP_TOKEN = os.environ.get("WHATSAPP_TOKEN", "").strip()
-PHONE_NUMBER_ID = os.environ.get("PHONE_NUMBER_ID", "").strip()
-VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "").strip()
+SUPABASE_URL = os.environ.get("https://qhxycvhdyafcxjozfyhk.supabase.co, "").strip()
+SUPABASE_KEY = os.environ.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFoeHljdmhkeWFmY3hqb3pmeWhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MTU5NzYsImV4cCI6MjEwNzQ5MTk3Nn0.WCWLF0mYNzzzqB6v9g4o8QgbkMlSlQYfrxdKFJ8jIHM", "").strip()
+WHATSAPP_TOKEN = os.environ.get("EAAZAlRJJcHZBgBSpFNYFYxdDxggYluLTzAH7qVb5NopsDK5N05xNGQjmZC89EBHTTuhSg80l9WsQDgRnAcKE8ksY7pwq4Ly5ZAIVq7ATLGA0bnxSF3FtRXEMNBueQlY5v2kOtYNHZBI1a1p0j8yP7n4pqzZCyK0EEtmY52A3nt4sCUahp6tJsH7UXUwW1IqZAPbmKMD2rEVvrNF2GvfXXSGf4SwaxBVMGhlZAzlvw1Dr93oHgsiNjJNTN4D9gu6pMyXTm91KkCPsz74G6AH7LftVqnY2HgZDZD", "").strip()
+PHONE_NUMBER_ID = os.environ.get("1334724103061105", "").strip()
+VERIFY_TOKEN = os.environ.get("FyD_BotPago_2026_Seguro91", "").strip()
 
 # Agencia FyD payment details. Verify these are correct before deploying.
 MIS_DATOS = {
